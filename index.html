@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar">
+            <div class="brand-title">Jamie C</div>
+            <a href="#" class="togglebutton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navlinks">
+                <ul class="menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="aboutMe" href="about">
+            <h1 class="title">Hi, my name's Jamie!</h1>
+            <p class="aboutText">I'm a Cambridgeshire based, aspiring front-end web developer. I am mostly self taught using online recourses such as codecademy and freecodecamp however, I have also completed a 12 week bootcamp with Purplebeard training.
+            </p>
+        </div>
+        <div class="skillsContainer">
+            <div class="skillimg"><img src="./html5.jpg" alt="html5">
+                <p class="skilltext">I am comfortable using HTML5 in all my projects.</p>
+            </div>
+            <div class="skillimg"><img src="./css3.jpg" alt="css3">
+                <p class="skilltext">I really enjoy using CSS to animate and style my website, I continue to learn more and more about it every day!</p>
+            </div>
+            <div class="skillimg"><img src="./javascript.jpg" alt="javascript">
+                <p class="skilltext">I can read and write basic functions loops and arrays in JS.</p>
+            </div>
+        </div>
+        <div class="formdiv">
+            <form id="contact" action="" method="post">
+                <h3>Contact Me!</h3>
+                <h5>I'm always looking for input on how to improve! Or potential job opportunities</h5>
+                <fieldset>
+                    <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+                </form>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Contact:</p>
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
